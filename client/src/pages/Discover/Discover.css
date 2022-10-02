@@ -1,0 +1,89 @@
+.discover-main-section {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+  .discover-main-section .img-wrapper {
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+    width: "100%";
+    align-items: stretch;
+    justify-content: flex-end;
+  }
+  
+  .covers-image {
+    background-image: url('/Users/rishikapatwa/Desktop/utility/client/src/assets/covers.jpeg');
+    width: 35vw;
+    margin-left: 2rem;
+    height: 35vw;
+  }
+  
+  .icon-section {
+    display: flex; 
+    align-items: center;
+  }
+  
+  .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5rem;
+    padding: .75rem;
+    width: 150px;
+    height: 150px;
+    background-color: #202027;
+    margin-bottom: 2rem;
+  }
+  
+  .rish {
+    font-weight: 800;
+    font-size: 25px;
+    margin: 2rem;
+  }
+
+  .icon img {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+  }
+
+  .call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 4rem;
+    align-self: center;
+  }
+
+  .brand > img {
+    height: 100px;
+  }
+  
+  .brand > a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 99px;
+    font-weight: 800;
+    background-color: #1db954;
+  }
+
+  @media (max-width: 80px) {
+    .discover-main-section {
+      flex-direction: column;
+      justify-content: center;
+      width:auto;
+      height:10vh;
+    }
+  
+    .discover-main-section .covers-image {
+      margin-top: 2rem;
+      height: 30vh;
+      width: auto;
+    }
+  }
